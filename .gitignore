@@ -1,0 +1,78 @@
+# Entornos virtuales
+densenet_env/
+venv/
+env/
+ENV/
+
+# Archivos de modelos y pesos
+*.pth
+*.h5
+*.hdf5
+*.weights
+*.pt
+*.pkl
+
+# Datasets y directorios de datos
+Dataset-Flores/
+sam_masks_cache/
+data/
+datasets/
+*.csv
+*.json
+*.npy
+*.npz
+
+# Archivos de caché
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.cache/
+.pytest_cache/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de logs
+*.log
+logs/
+tensorboard/
+
+# Archivos de configuración local
+.env
+.env.local
+config.local.yaml
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archivos de resultados y visualizaciones
+results/
+visualizations/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Excepciones específicas (si necesitas versionar algunos archivos de los tipos anteriores)
+!requirements.txt
+!README.md
+!LICENSE
